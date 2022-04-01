@@ -5,7 +5,7 @@ body {
     flex-direction: column;
 }
 
-.head1 {
+#head1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,8 +48,9 @@ body {
     height: 300px;
 }
 
-.head2 {
+#head2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 40px;
@@ -72,4 +73,77 @@ body {
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: #3882F6;
+    padding: 5px 15px;
+    color: white;
+    font-weight: bold;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px 100px 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fav {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border: 5px solid #3882F6;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    padding: 10px 100px;
+}
+
+.q1 {
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.q2 {
+    text-align: right;
+}
+
+#call {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 100px 125px;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+#call button {
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 100px;
 }
